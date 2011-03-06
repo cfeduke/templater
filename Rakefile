@@ -4,4 +4,6 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
+Rake.application.options.trace = false
+
 Templater::Application.load_tasks
