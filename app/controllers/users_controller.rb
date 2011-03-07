@@ -1,5 +1,5 @@
 class UsersController < ApplicationController
-  append_view_path SqlTemplate::Resolver.new
+  append_view_path SqlTemplate::Resolver.instance
   
   # GET /users
   # GET /users.xml
